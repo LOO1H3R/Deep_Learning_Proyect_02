@@ -1,5 +1,11 @@
 # Proyecto 02 - Generative Adversarial Network (pix2pix) con Fine-tuning en Tenis estilo Sketch
 
+## Demo en Línea
+
+Puedes probar el modelo entrenado directamente en línea desde Hugging Face Spaces:
+
+[Probar el modelo aquí](https://huggingface.co/spaces/Loother/GAN_testing)
+
 ## Asignatura
 **Aprendizaje profundo**
 
