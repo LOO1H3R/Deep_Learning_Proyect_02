@@ -63,9 +63,16 @@ Durante el entrenamiento se monitorearon dos principales métricas:
 
 Visualizaciones del entrenamiento registradas con **Weights & Biases:**
 
-| Pérdida del Generador | Pérdida del Discriminador |
-|:---------------------:|:-------------------------:|
-| ![gen_loss.png](training/gen_loss.png) | ![disc_loss.png](training/disc_loss.png) |
+<table>
+<tr>
+<td><img src="training/gen_loss.png" width="400"/></td>
+<td><img src="training/disc_loss.png" width="400"/></td>
+</tr>
+<tr>
+<td align="center">Pérdida del Generador</td>
+<td align="center">Pérdida del Discriminador</td>
+</tr>
+</table>
 
 Observaciones:
 - El entrenamiento fue volátil debido al tamaño limitado del dataset.
@@ -77,9 +84,18 @@ Observaciones:
 
 Ejemplos de traducción **real → sketch**:
 
-| Imagen Original | Sketch generado por ChatGPT | Sketch generado por pix2pix |
-|:---------------:|:----------------------------:|:---------------------------:|
-| ![original.jpg](gan/original.jpg) | ![chatgpt_sketch.png](gan/chatgpt_sketch.png) | ![sketch.jpg](gan/sketch.jpg) |
+<table>
+<tr>
+<td><img src="gan/original.jpg" width="300"/></td>
+<td><img src="gan/chatgpt_sketch.png" width="300"/></td>
+<td><img src="gan/sketch.jpg" width="300"/></td>
+</tr>
+<tr>
+<td align="center">Imagen Original</td>
+<td align="center">Sketch generado por ChatGPT</td>
+<td align="center">Sketch generado por pix2pix</td>
+</tr>
+</table>
 
 - El modelo logró un efecto de sketch aceptable aunque con bordes menos definidos que soluciones más complejas.
 
